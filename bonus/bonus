@@ -1,0 +1,50 @@
+-ne ----- SIMPLE INVALID COMMAND -----
+
+[  FAILURE  ] -> Test basic_invalid_1
+[  FAILURE  ] -> Test basic_invalid_2
+[  FAILURE  ] -> Test basic_invalid_3
+-ne 
+----- SIMPLE EXEC -----
+
+[  FAILURE  ] -> Test simple_exec_1
+[  FAILURE  ] -> Test simple_exec_2
+-ne 
+----- MEDIUM EXEC -----
+
+[  FAILURE  ] -> Test medium_exec_1
+[  FAILURE  ] -> Test medium_exec_2
+[  SUCCESS  ] -> Test medium_exec_3
+-ne 
+----- CD BUILTINS -----
+
+[  FAILURE  ] -> Test cd_builtins_1
+[  FAILURE  ] -> Test cd_builtins_2
+[  FAILURE  ] -> Test cd_builtins_3
+[  FAILURE  ] -> Test cd_builtins_4
+-ne 
+----- SETENV BUILTINS -----
+
+[  FAILURE  ] -> Test setenv_builtins_1
+[  FAILURE  ] -> Test setenv_builtins_2
+[  FAILURE  ] -> Test setenv_builtins_3
+-ne 
+----- UNSETENV BUILTINS -----
+
+[  SUCCESS  ] -> Test unsetenv_builtins_1
+[  SUCCESS  ] -> Test unsetenv_builtins_2
+[  SUCCESS  ] -> Test unsetenv_builtins_3
+-ne 
+----- ECHO BUILTINS -----
+
+[  FAILURE  ] -> Test echo_builtins_1
+[  FAILURE  ] -> Test echo_builtins_2
+-ne 
+----- OR & AND BUILTINS -----
+
+[  FAILURE  ] -> Test test_and_2
+[  FAILURE  ] -> Test test_and_2
+[  FAILURE  ] -> Test test_and_2
+[  FAILURE  ] -> Test test_and_2
+-ne 
+----- END OF TESTS -----
+
